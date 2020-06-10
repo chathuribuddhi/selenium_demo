@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-08T16:25:55 IST" name="Default suite" finished-at="2020-06-08T16:26:36 IST" duration-ms="40600">
+    <groups>
+    </groups>
+    <test started-at="2020-06-08T16:25:55 IST" name="Default test" finished-at="2020-06-08T16:26:36 IST" duration-ms="40600">
+      <class name="chathuri.buddhi.HomePageTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:chathuri.buddhi.HomePageTest@61dd025]" started-at="2020-06-08T16:25:55 IST" name="SetUp" finished-at="2020-06-08T16:26:01 IST" duration-ms="5992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\Nipuni\eclipse-workspace\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchAllCategories()[pri:0, instance:chathuri.buddhi.HomePageTest@61dd025]" started-at="2020-06-08T16:26:01 IST" name="SearchAllCategories" finished-at="2020-06-08T16:26:14 IST" duration-ms="13012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAllCategories -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:chathuri.buddhi.HomePageTest@61dd025]" started-at="2020-06-08T16:26:14 IST" name="TearDown" finished-at="2020-06-08T16:26:16 IST" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp(java.lang.String, java.lang.String)[pri:0, instance:chathuri.buddhi.HomePageTest@61dd025]" started-at="2020-06-08T16:26:16 IST" name="SetUp" finished-at="2020-06-08T16:26:27 IST" duration-ms="10859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\Nipuni\eclipse-workspace\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SearchLogo()[pri:0, instance:chathuri.buddhi.HomePageTest@61dd025]" started-at="2020-06-08T16:26:27 IST" name="SearchLogo" finished-at="2020-06-08T16:26:34 IST" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLogo -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:chathuri.buddhi.HomePageTest@61dd025]" started-at="2020-06-08T16:26:34 IST" name="TearDown" finished-at="2020-06-08T16:26:36 IST" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- chathuri.buddhi.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

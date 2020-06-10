@@ -1,0 +1,19 @@
+<suite name="Test">
+	<parameters>
+		<parameter name="browser" value="Chrome" />
+		<parameter name="driverexe"
+			value="C:\Users\CHATHURIBUDDHI\eclipse-workspace\chromedriver.exe" />
+	</parameters>
+	<test name="Test">
+		<classes>
+			<class name="chathuri.buddhi.HomePageTest">
+				<methods>
+					<include name="SearchBarTest" />
+					<exclude name="SearchAllCategories" />
+					<exclude name="SearchLogo" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

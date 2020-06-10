@@ -1,0 +1,12 @@
+<suite name="Test">
+	<parameters>
+		<parameter name="browser" value="Chrome" />
+		<parameter name="driverexe" value="C:\\Users\\Nipuni\\eclipse-workspace\\chromedriver.exe" />
+	</parameters>
+	<test name="Test">
+		<classes>
+			<class name="chathuri.buddhi.HomePageTest" />
+			<class name="chathuri.buddhi.MenuBarTest" />
+		</classes>
+	</test>
+</suite>

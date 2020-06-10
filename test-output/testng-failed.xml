@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="driverexe" value="C:\Users\CHATHURIBUDDHI\eclipse-workspace\chromedriver.exe"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="chathuri.buddhi.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="SearchBarTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- chathuri.buddhi.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test] -->
